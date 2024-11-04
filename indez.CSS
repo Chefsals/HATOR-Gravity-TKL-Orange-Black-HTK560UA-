@@ -1,0 +1,318 @@
+body {
+    font-family: Arial, sans-serif;
+   background-image: linear-gradient(323deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 16.667%,rgba(46, 46, 46, 0.01) 16.667%, rgba(46, 46, 46, 0.01) 33.334%,rgba(226, 226, 226, 0.01) 33.334%, rgba(226, 226, 226, 0.01) 50.001000000000005%,rgba(159, 159, 159, 0.01) 50.001%, rgba(159, 159, 159, 0.01) 66.668%,rgba(149, 149, 149, 0.01) 66.668%, rgba(149, 149, 149, 0.01) 83.33500000000001%,rgba(43, 43, 43, 0.01) 83.335%, rgba(43, 43, 43, 0.01) 100.002%),linear-gradient(346deg, rgba(166, 166, 166, 0.03) 0%, rgba(166, 166, 166, 0.03) 25%,rgba(240, 240, 240, 0.03) 25%, rgba(240, 240, 240, 0.03) 50%,rgba(121, 121, 121, 0.03) 50%, rgba(121, 121, 121, 0.03) 75%,rgba(40, 40, 40, 0.03) 75%, rgba(40, 40, 40, 0.03) 100%),linear-gradient(347deg, rgba(209, 209, 209, 0.01) 0%, rgba(209, 209, 209, 0.01) 25%,rgba(22, 22, 22, 0.01) 25%, rgba(22, 22, 22, 0.01) 50%,rgba(125, 125, 125, 0.01) 50%, rgba(125, 125, 125, 0.01) 75%,rgba(205, 205, 205, 0.01) 75%, rgba(205, 205, 205, 0.01) 100%),linear-gradient(84deg, rgba(195, 195, 195, 0.01) 0%, rgba(195, 195, 195, 0.01) 14.286%,rgba(64, 64, 64, 0.01) 14.286%, rgba(64, 64, 64, 0.01) 28.572%,rgba(67, 67, 67, 0.01) 28.572%, rgba(67, 67, 67, 0.01) 42.858%,rgba(214, 214, 214, 0.01) 42.858%, rgba(214, 214, 214, 0.01) 57.144%,rgba(45, 45, 45, 0.01) 57.144%, rgba(45, 45, 45, 0.01) 71.42999999999999%,rgba(47, 47, 47, 0.01) 71.43%, rgba(47, 47, 47, 0.01) 85.71600000000001%,rgba(172, 172, 172, 0.01) 85.716%, rgba(172, 172, 172, 0.01) 100.002%),linear-gradient(73deg, rgba(111, 111, 111, 0.03) 0%, rgba(111, 111, 111, 0.03) 16.667%,rgba(202, 202, 202, 0.03) 16.667%, rgba(202, 202, 202, 0.03) 33.334%,rgba(57, 57, 57, 0.03) 33.334%, rgba(57, 57, 57, 0.03) 50.001000000000005%,rgba(197, 197, 197, 0.03) 50.001%, rgba(197, 197, 197, 0.03) 66.668%,rgba(97, 97, 97, 0.03) 66.668%, rgba(97, 97, 97, 0.03) 83.33500000000001%,rgba(56, 56, 56, 0.03) 83.335%, rgba(56, 56, 56, 0.03) 100.002%),linear-gradient(132deg, rgba(88, 88, 88, 0.03) 0%, rgba(88, 88, 88, 0.03) 20%,rgba(249, 249, 249, 0.03) 20%, rgba(249, 249, 249, 0.03) 40%,rgba(2, 2, 2, 0.03) 40%, rgba(2, 2, 2, 0.03) 60%,rgba(185, 185, 185, 0.03) 60%, rgba(185, 185, 185, 0.03) 80%,rgba(196, 196, 196, 0.03) 80%, rgba(196, 196, 196, 0.03) 100%),linear-gradient(142deg, rgba(160, 160, 160, 0.03) 0%, rgba(160, 160, 160, 0.03) 12.5%,rgba(204, 204, 204, 0.03) 12.5%, rgba(204, 204, 204, 0.03) 25%,rgba(108, 108, 108, 0.03) 25%, rgba(108, 108, 108, 0.03) 37.5%,rgba(191, 191, 191, 0.03) 37.5%, rgba(191, 191, 191, 0.03) 50%,rgba(231, 231, 231, 0.03) 50%, rgba(231, 231, 231, 0.03) 62.5%,rgba(70, 70, 70, 0.03) 62.5%, rgba(70, 70, 70, 0.03) 75%,rgba(166, 166, 166, 0.03) 75%, rgba(166, 166, 166, 0.03) 87.5%,rgba(199, 199, 199, 0.03) 87.5%, rgba(199, 199, 199, 0.03) 100%),linear-gradient(238deg, rgba(116, 116, 116, 0.02) 0%, rgba(116, 116, 116, 0.02) 20%,rgba(141, 141, 141, 0.02) 20%, rgba(141, 141, 141, 0.02) 40%,rgba(152, 152, 152, 0.02) 40%, rgba(152, 152, 152, 0.02) 60%,rgba(61, 61, 61, 0.02) 60%, rgba(61, 61, 61, 0.02) 80%,rgba(139, 139, 139, 0.02) 80%, rgba(139, 139, 139, 0.02) 100%),linear-gradient(188deg, rgba(227, 227, 227, 0.01) 0%, rgba(227, 227, 227, 0.01) 20%,rgba(105, 105, 105, 0.01) 20%, rgba(105, 105, 105, 0.01) 40%,rgba(72, 72, 72, 0.01) 40%, rgba(72, 72, 72, 0.01) 60%,rgba(33, 33, 33, 0.01) 60%, rgba(33, 33, 33, 0.01) 80%,rgba(57, 57, 57, 0.01) 80%, rgba(57, 57, 57, 0.01) 100%),linear-gradient(90deg, hsl(237,0%,13%),hsl(237,0%,13%));
+}
+
+.h1{
+    color: lime;
+    font-size: 60px;
+}
+
+
+.rows {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin: 15px
+}
+
+.h2{
+    width: 1600px;
+}
+
+.main{
+    width: 1600px;
+}
+
+.footer{
+    width: 1600px;
+}
+
+
+.ios{
+     position: relative;
+     right: 50px;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --mainZ51Col: 165,211,0;
+    --mainContCol: 165,211,0;
+    --white: 255,255,255;
+    --red: 244,67,54;
+    --orange: 255,140,0;
+    --yellowGrey: 205,190,0;
+    --darkviolet: 148,0,211;
+    --black: 0,0,0;
+    --transp: transparent;
+    --grey1: 142,142,142;
+    --grey2: 51,51,51;
+    --grey3: 19,19,19;
+    --grey4: 102,102,102;
+    --faceColor: 66,84,151;
+    --twitColor: 49,200,246;
+    --fnt0p25rem: 0.25rem;
+    --fnt0p3125rem: 0.3125rem;
+    --fnt0p375rem: 0.375rem;
+    --fnt0p5rem: 0.5rem;
+    --fnt0p625rem: 0.625rem;
+    --fnt0p6875rem: 0.6875rem;
+    --fnt0p75rem: 0.75rem;
+    --fnt0p8125rem: 0.8125rem;
+    --fnt0p875rem: 0.875rem;
+    --fnt0p9375rem: 0.9375rem;
+    --fnt1rem: 1rem;
+    --fnt1p0625rem: 1.0625rem;
+    --fnt1p125rem: 1.125rem;
+    --fnt1p1875rem: 1.1875rem;
+    --fnt1p25rem: 1.25rem;
+    --fnt1p1375rem: 1.375rem;
+    --fnt1p5rem: 1.5rem;
+    --fnt1p625rem: 1.625rem;
+    --fnt1p875rem: 1.875rem;
+    --fnt2p25rem: 2.255rem;
+    --fnt2p5rem: 2.5rem;
+    --fnt2p625rem: 2.625rem;
+    --fnt3rem: 3rem;
+    --fnt3p125rem: 3.125rem;
+    --npColor: 218,41,43;
+    --upColor: 254,197,36;
+    --rzColor: 5,188,82;
+    text-align: left;
+    font-weight: 400;
+    line-height: normal;
+    font-family: Ubuntu,sans-serif;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(var(--mainZ51Col)) rgb(var(--grey2));
+    margin: 0!important;
+    padding-bottom: 0!important;
+    padding-top: .25rem!important;
+    padding-left: .25rem!important;
+    text-transform: uppercase!important;
+    color: rgb(var(--mainZ51Col));
+    opacity: .99;
+    width: 7.5625rem;
+    font-size: var(--fnt0p8125rem);
+    letter-spacing: .9px;
+}
+
+.col-1:hover{
+  background-color: grey;
+  height: 60px;
+  width: 250px;
+}
+
+.ases{
+    position: relative;
+    bottom: 15px;
+    right: 54px;
+    left:500px;
+        --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --mainZ51Col: 165,211,0;
+    --mainContCol: 165,211,0;
+    --white: 255,255,255;
+    --red: 244,67,54;
+    --orange: 255,140,0;
+    --yellowGrey: 205,190,0;
+    --darkviolet: 148,0,211;
+    --black: 0,0,0;
+    --transp: transparent;
+    --grey1: 142,142,142;
+    --grey2: 51,51,51;
+    --grey3: 19,19,19;
+    --grey4: 102,102,102;
+    --faceColor: 66,84,151;
+    --twitColor: 49,200,246;
+    --fnt0p25rem: 0.25rem;
+    --fnt0p3125rem: 0.3125rem;
+    --fnt0p375rem: 0.375rem;
+    --fnt0p5rem: 0.5rem;
+    --fnt0p625rem: 0.625rem;
+    --fnt0p6875rem: 0.6875rem;
+    --fnt0p75rem: 0.75rem;
+    --fnt0p8125rem: 0.8125rem;
+    --fnt0p875rem: 0.875rem;
+    --fnt0p9375rem: 0.9375rem;
+    --fnt1rem: 1rem;
+    --fnt1p0625rem: 1.0625rem;
+    --fnt1p125rem: 1.125rem;
+    --fnt1p1875rem: 1.1875rem;
+    --fnt1p25rem: 1.25rem;
+    --fnt1p1375rem: 1.375rem;
+    --fnt1p5rem: 1.5rem;
+    --fnt1p625rem: 1.625rem;
+    --fnt1p875rem: 1.875rem;
+    --fnt2p25rem: 2.255rem;
+    --fnt2p5rem: 2.5rem;
+    --fnt2p625rem: 2.625rem;
+    --fnt3rem: 3rem;
+    --fnt3p125rem: 3.125rem;
+    --npColor: 218,41,43;
+    --upColor: 254,197,36;
+    --rzColor: 5,188,82;
+    text-align: left;
+    font-weight: 400;
+    line-height: normal;
+    font-family: Ubuntu,sans-serif;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(var(--mainZ51Col)) rgb(var(--grey2));
+    margin: 0!important;
+    padding-bottom: 0!important;
+    padding-top: .25rem!important;
+    padding-left: .25rem!important;
+    text-transform: uppercase!important;
+    color: rgb(var(--mainZ51Col));
+    opacity: .99;
+    width: 7.5625rem;
+    font-size: var(--fnt0p8125rem);
+    letter-spacing: .9px;
+}  
+
+
+.knopka{
+    font-size: 30px;
+    position: relative;
+    margin: 1px;
+}
+
+
+.iosw{
+    font-size: 19px;
+    position: relative;
+    right: 630px;
+    top: 10px;
+
+}
+
+.col-3{
+    font: 25px;
+    color: white;
+}
+
+.io{
+        display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    color: lime;
+}
+
+.header{
+    text-align: center;
+    font-family: Jolly Lodger;
+    font-size: 50px;
+    width: 1600px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.table{
+    background-color: grey;
+    opacity: 0.8;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.tables{
+    background-color: black;
+        opacity: 0.8;
+    border: 1px solid black;
+    color: white;
+    font-size: 20px;
+}
+
+.h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+
+.zaz{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.zaza{
+    font-size: 70px;
+    color: lime;
+    text-align: center;
+}
+
+.rowsa{
+position: relative;
+left: 1000px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.col-3 img {
+    width: 400px;
+    margin: 15px;
+    height: 375px;
+    position: relative;
+    right: 1000px;
+}
+
+
+
